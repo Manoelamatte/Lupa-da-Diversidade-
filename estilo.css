@@ -1,0 +1,119 @@
+
+.body {
+  background-color: black;
+}
+
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    height:52px;
+    z-index: 9900;
+    text-align: justify;
+    background-color: red;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    height: 50px;
+    background-color:white;
+    width: 100%;
+}
+
+.logo {
+    margin-left: 40px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    width: 100px;
+    height: 40px;
+    float: left;
+    background: url(img/Logo.png) center center/100px no-repeat;
+}
+
+.menu ul {
+    margin-right: 50px;
+}
+
+.menu ul li {
+    display: inline;  
+    float: right;
+}
+
+menu a {
+    float: left;
+}
+    
+.menu ul li a {
+    display: inline-block;
+    color: black;
+    padding: 10px 10px ; 
+}
+
+/* Fim do css do MENU */
+
+.fotoMenu {
+    visibility: visible;
+}
+
+.tresMenu {
+    visibility: visible;
+}
+
+/* Fim do css do MENU */
+
+.coluna {   
+    float: right;
+    padding: 0 5%;
+    position: relative;
+}
+.coluna2{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+}
+.dois {
+   width: 50%;
+}
+.centralizado {
+    text-align: center;
+}
+.icone {
+    width: 51px;
+    }
+
+ section {
+     padding: 20px;
+     float: left;
+ } 
+#selecao {
+    -background-c
+    text-align: center;
+}
+.justificado {
+    text-align: justify;
+}
+
+
+@media all and (max-width: 768px) {
+
+
+  .coluna {   
+    display: block;
+}
+.coluna2{
+    isplay: block;
+}
+  
+  
+    .fotoMenu {
+        visibility: visible;
+        margin-top: 4px;
+        margin-right: -30px;
+    }
+
+    .tresMenu {
+        visibility: hidden;
+    }
+
+}
