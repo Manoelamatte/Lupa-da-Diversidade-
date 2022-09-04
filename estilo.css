@@ -1,119 +1,108 @@
-
-.body {
-  background-color: black;
+html, body {
+    margin: 0;
 }
 
-.header {
-    width: 100%;
-    position: fixed;
-    top: 0;
-    height:52px;
-    z-index: 9900;
-    text-align: justify;
-    background-color: red;
+
+#imagem_fundo {
+    background: url(harry.gif) ;
+    height: 100%;
+    text-align: center;
+    background-size: cover;
 }
 
-.menu {
-    position: fixed;
-    top: 0;
-    height: 50px;
-    background-color:white;
-    width: 100%;
+
+#titulo {
+    color: rgb(247, 245, 245);
+    padding-top: 10%;
+    font-size: 70px ;
+    -line-height: 1;
+    -text-shadow: rgb(253, 252, 252);
 }
 
-.logo {
-    margin-left: 40px;
-    margin-top: 3px;
-    margin-bottom: 3px;
-    width: 100px;
-    height: 40px;
-    float: left;
-    background: url(img/Logo.png) center center/100px no-repeat;
+#subtitulo {
+    color: rgb(232, 236, 236);
+    padding-left: 30%;
+    padding-right: 30%;
+    font-size: 30px;
+    hr align="center" width="80%"
 }
 
-.menu ul {
-    margin-right: 50px;
+
+#acao {
+    color: pink;
+    border: 3px white solid;
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+    font-size: 30px;
+    text-decoration: initial;
 }
 
-.menu ul li {
-    display: inline;  
-    float: right;
-}
 
-menu a {
-    float: left;
-}
-    
-.menu ul li a {
-    display: inline-block;
-    color: black;
-    padding: 10px 10px ; 
-}
-
-/* Fim do css do MENU */
-
-.fotoMenu {
-    visibility: visible;
-}
-
-.tresMenu {
-    visibility: visible;
-}
-
-/* Fim do css do MENU */
-
-.coluna {   
-    float: right;
-    padding: 0 5%;
-    position: relative;
-}
-.coluna2{
-    float: left;
-    padding: 0 5%;
-    position: relative;
-}
-.dois {
-   width: 50%;
-}
-.centralizado {
+#selecao {
+    -background-c
     text-align: center;
 }
+
+#caixa {
+    width: 60%;
+    height: 50%;
+    border: 3px solid tomato;
+    text-align: center;
+    line-height: 89.5px;
+    text-transform: uppercase;
+    font-size: 60px;
+    letter-spacing: 60px;
+    text-decoration: none;
+    align-self: hover;
+}
+
 .icone {
-    width: 51px;
+    width: 40px;
     }
 
  section {
      padding: 20px;
      float: left;
- } 
-#selecao {
-    -background-c
-    text-align: center;
+ }   
+
+.destaque2 {
+    background-color: bisque;
 }
+.destaque { 
+    background-color: rgb(245, 114, 164);
+}
+
+.imgeco {
+    width: 85%;
+    height: 30%;
+}
+
+
+.coluna {   
+    float: left;
+    padding: 0 10%;
+    position: relative;
+}
+
+.dois {
+   width: 40%;
+}
+
+.quatro {
+    width: 15%;
+   
+}
+
+.tres {
+    width: 29%;
+    padding:0 2%;
+}
+
 .justificado {
     text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-
-@media all and (max-width: 768px) {
-
-
-  .coluna {   
-    display: block;
-}
-.coluna2{
-    isplay: block;
-}
-  
-  
-    .fotoMenu {
-        visibility: visible;
-        margin-top: 4px;
-        margin-right: -30px;
-    }
-
-    .tresMenu {
-        visibility: hidden;
-    }
-
+.centralizado {
+    text-align: center;
 }
