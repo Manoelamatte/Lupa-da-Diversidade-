@@ -1,0 +1,108 @@
+html, body {
+    margin: 0;
+}
+
+
+#imagem_fundo {
+    background: url(harry.gif) ;
+    height: 100%;
+    text-align: center;
+    background-size: cover;
+}
+
+
+#titulo {
+    color: rgb(247, 245, 245);
+    padding-top: 10%;
+    font-size: 70px ;
+    -line-height: 1;
+    -text-shadow: rgb(253, 252, 252);
+}
+
+#subtitulo {
+    color: rgb(232, 236, 236);
+    padding-left: 30%;
+    padding-right: 30%;
+    font-size: 30px;
+    hr align="center" width="80%"
+}
+
+
+#acao {
+    color: pink;
+    border: 3px white solid;
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+    font-size: 30px;
+    text-decoration: initial;
+}
+
+
+#selecao {
+    -background-c
+    text-align: center;
+}
+
+#caixa {
+    width: 60%;
+    height: 50%;
+    border: 3px solid tomato;
+    text-align: center;
+    line-height: 89.5px;
+    text-transform: uppercase;
+    font-size: 60px;
+    letter-spacing: 60px;
+    text-decoration: none;
+    align-self: hover;
+}
+
+.icone {
+    width: 40px;
+    }
+
+ section {
+     padding: 20px;
+     float: left;
+ }   
+
+.destaque2 {
+    background-color: bisque;
+}
+.destaque { 
+    background-color: rgb(245, 114, 164);
+}
+
+.imgeco {
+    width: 85%;
+    height: 30%;
+}
+
+
+.coluna {   
+    float: left;
+    padding: 0 10%;
+    position: relative;
+}
+
+.dois {
+   width: 40%;
+}
+
+.quatro {
+    width: 15%;
+   
+}
+
+.tres {
+    width: 29%;
+    padding:0 2%;
+}
+
+.justificado {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.centralizado {
+    text-align: center;
+}
